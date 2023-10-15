@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'animate.css';
 
 /* @import 'reset-css'; */
 @import './components.css';
@@ -10,7 +11,7 @@ body {
 }
 
 h1 {
-  @apply text-6xl text-[#5C62EC] font-bold;
+  @apply text-6xl text-white font-bold;
 }
 
 h2 {

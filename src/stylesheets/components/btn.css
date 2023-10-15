@@ -1,0 +1,11 @@
+.btn {
+  @apply px-7 py-3 rounded-md font-medium;
+}
+
+.btn-primary {
+  @apply bg-[#5C62EC] text-white duration-500 transform ease-in-out;
+}
+
+.btn-primary:hover {
+  @apply bg-white text-[#5C62EC];
+}

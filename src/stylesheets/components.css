@@ -1,2 +1,7 @@
 @import './components/main.css';
+@import './components/card.css';
+@import './components/cards.css';
+@import './components/btn.css';
 @import "./components/navbar.css";
+@import './components/header.css';
+@import './components/footer.css';
