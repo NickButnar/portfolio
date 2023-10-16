@@ -24,3 +24,11 @@
 .navbar__li:hover:after {
   transform: scaleX(1);
 }
+
+.navbar__li-active {
+  @apply relative;
+}
+
+.navbar__li-active::before {
+  @apply absolute left-0 right-0 bottom-0 content-[''] border-b-2 block border-[#5C62EC];
+}
