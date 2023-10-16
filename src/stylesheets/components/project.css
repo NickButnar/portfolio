@@ -1,0 +1,12 @@
+.project {
+  @apply my-16;
+}
+
+.project__title {
+  @apply text-[#5C62EC] text-center;
+}
+
+.project__image {
+  @apply my-10 text-center m-auto;
+
+}

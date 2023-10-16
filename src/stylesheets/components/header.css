@@ -1,5 +1,5 @@
 .header {
-  @apply flex bg-[#171718] flex-col items-center min-h-fit pb-60 pt-44 relative;
+  @apply flex bg-[#171718] flex-col items-center min-h-fit pb-60 pt-44 relative border-t border-[#26292D];
 }
 
 .header:before {

@@ -1,0 +1,19 @@
+.info {
+  @apply mt-10 mb-44 flex flex-col items-center;
+}
+
+.info__title {
+  @apply text-[#5C62EC] text-center;
+}
+
+.info__section {
+  @apply text-center mt-10 max-w-xl;
+}
+
+.info__subtitle {
+  @apply pb-5;
+}
+
+.info__item {
+  @apply font-bold text-[#5C62EC] hover:border-b-2 border-[#5C62EC] hover:duration-150 ease-in-out !important;
+}
