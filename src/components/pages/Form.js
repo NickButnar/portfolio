@@ -5,7 +5,7 @@ const Form = () => {
   const {register, handleSubmit, formState: { errors }, formState} = useForm()
   const onSubmit = (data) => {
     alert(JSON.stringify(data));
-    console.log(data)
+    console.log(data);
     console.log(errors, formState);
   }
 

@@ -1,5 +1,5 @@
 .info {
-  @apply mt-10 mb-44 flex flex-col items-center;
+  @apply flex flex-col items-center mt-10;
 }
 
 .info__title {
@@ -7,7 +7,7 @@
 }
 
 .info__section {
-  @apply text-center mt-10 max-w-xl;
+  @apply max-w-xl mt-10 text-center;
 }
 
 .info__subtitle {
