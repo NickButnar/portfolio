@@ -1,11 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import Contacts from './components/pages/Contacts';
-import Skills from './components/pages/Skills';
-import Footer from './components/Footer'
-import Project from './components/pages/Project';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/pages/Home/Home';
+import Contacts from './components/pages/Contacts/Contacts';
+import Skills from './components/pages/Skills/Skills';
+import Footer from './components/Footer/Footer'
+import Project from './components/pages/Project/Project';
 
 import ScrollToTop from './helpers/scrollToTop';
 

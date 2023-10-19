@@ -1,0 +1,19 @@
+.contacts {
+  @apply flex flex-col items-center mt-10;
+}
+
+.section {
+  @apply max-w-xl mt-10 text-center;
+}
+
+.title {
+  @apply text-[#5C62EC] text-center;
+}
+
+.subtitle {
+  @apply pb-5;
+}
+
+.item {
+  @apply font-bold text-[#5C62EC] hover:border-b-2 border-[#5C62EC] hover:duration-150 ease-in-out !important;
+}

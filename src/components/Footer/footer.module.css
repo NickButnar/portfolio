@@ -1,0 +1,11 @@
+.footer {
+  @apply bg-[#171718] px-28 py-16 items-center;
+}
+
+.list {
+  @apply flex items-center justify-center space-x-7;
+}
+
+.privacy {
+  @apply flex justify-center pt-8 text-white;
+}
