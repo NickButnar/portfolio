@@ -1,0 +1,20 @@
+.header {
+  @apply flex bg-[#171718] flex-col items-center min-h-fit pb-60 pt-44 relative border-t border-[#26292D];
+}
+
+.header:before {
+  @apply absolute content-[''] inset-0 bg-no-repeat bg-center;
+  background-image: url('/public/images/header_background.svg');
+}
+
+.name {
+  @apply text-[#5C62EC];
+}
+
+.subtitle {
+  @apply pt-3 text-3xl font-bold text-white;
+}
+
+.description {
+  @apply font-medium text-white text-[18px] pt-5 pb-10;
+}
