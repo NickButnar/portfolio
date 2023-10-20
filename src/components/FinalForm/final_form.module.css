@@ -1,0 +1,26 @@
+.wrapper {
+  @apply flex justify-center w-full px-8 py-6 mx-auto max-w-7xl;
+}
+
+.form {
+  @apply flex flex-col items-center my-16 gap-y-4 w-[500px];
+}
+
+.section {
+  @apply flex justify-between w-full lg:w-full gap-x-3;
+}
+
+.label {
+  @apply w-full;
+}
+
+.input {
+  @apply p-1 border-2 border-[#5C62EC] rounded-md focus:ring-[#5C62EC] focus:ring-1 focus:border-[#5C62EC] focus:outline-none w-full;
+}
+
+.inputError {
+  @apply border-red-400 focus:ring-red-400 focus:border-red-500 focus:ring-1;
+}
+.error {
+  @apply text-red-400;
+}

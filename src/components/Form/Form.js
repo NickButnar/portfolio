@@ -14,7 +14,7 @@ const Form = () => {
   return (
     <div className={styles.wrapper}>
       <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
-        <h2 className="pb-5">Let`s talk</h2>
+        <h2 className="pb-5">React hook form</h2>
 
         <div className={styles.section}>
           <label className={styles.label}>
