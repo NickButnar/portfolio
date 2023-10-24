@@ -46,7 +46,7 @@ const FinalForm = () => {
     validators.reduce((error, validator) => error || validator(value), undefined);
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       {dataReceived ? (
         <h2>Data received on the server</h2>
       ) : (
