@@ -2,6 +2,7 @@ import React from "react";
 import Form from "../../Form/Form";
 import styles from './contacts.module.css'
 import FinalForm from "../../FinalForm/FInalForm";
+import Rating from "../../Rating/Rating";
 
 const Contacts = () => {
   return (
@@ -26,6 +27,7 @@ const Contacts = () => {
 
       <Form />
       <FinalForm />
+      <Rating />
     </div>
   )
 }
